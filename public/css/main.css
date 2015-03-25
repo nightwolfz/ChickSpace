@@ -1,0 +1,95 @@
+body {
+    color: #444;
+    background: #F0F0F0;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque", helvetica, sans-serif;
+}
+
+.red-bg,
+.red-bg li a {
+    background: #e74c3c;
+    color: #FFF6F4;    
+}
+
+.top-header,
+.top-header li a,
+.top-header li a:visited {
+    background: #e74c3c;
+    color: #FFF6F4;    
+}
+.top-header li a:hover,
+.top-header li a:active {
+    background: #BD382A;  
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 4px 6px 0px;
+}
+.box {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 4px 6px 0px;
+}
+
+
+
+
+/* Bootstrap overwrites */
+.image-circle{
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    border: 4px solid #FFF;
+    margin: 10px;
+}
+
+.bg-white {
+    background-color:#FFF;
+    padding:10px;
+}
+
+.control {
+    color:#000;
+    margin:10px;
+}
+
+.label {
+    color: #EB4F26;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.label.value {
+    color: #333;
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn-orange{
+    background-color: #FC563B;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.btn-orange:hover {
+    background-color: #F22F26;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+    color:#FFF !important;
+}
+
+.outter{
+    padding: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
